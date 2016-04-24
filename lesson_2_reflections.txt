@@ -3,3 +3,19 @@ It sets up the structure of the repository which allows you to create all the co
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area contains only the files from the working directory that are to be included in the commit to the repository. It adds value by providing a clearly identifiable way of adding only the files you want to the commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Check the differences between the staging area and the last commit to ensure all the changes are included and no others.
+
+What are some situations when branches would be helpful in keeping your history organised? How would branches help?
+Branches would help with trying some erperimental code, investigating different ways to fix bugs, using different languages. Branches help by compartmentalising the different development areas.
+
+How do diagrams help you visualise the branch structure?
+Branches could become very complex, especially with more than one person working on them.
+
+What is the result of merging two branches together? Whay do we represent it in the digram the way that we do?
+the merged branched contains the additional code created in both branches. It's represented in the diagram to show that the branches are now the same.
+
+What are the pros and cons of Gits automatic merging vs always doing merges manually?
+Automatic can speed things up or identify where the conflicts are.
+Manual merging seems to be a pain in the arse.
