@@ -1,0 +1,24 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Any bug in a program will be contained in the changes that werer made to the previous version.
+By only viewing the changes to the code, then there will be less code to review to spot the bug
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Having access to all the previous versions will allow ideas to be prototyped
+Any ideas that don't work can easily be removed by reverting to an earlier version.
+
+What do you think are the pros and cons of manually choosing when to create a commit like you do in Git vs having versions automatically saved?
+Commits allow you to have control, deciding on when the logical breaks are. I does mean you have to remember to do it at the correct point.
+Automatic saving helps when you forget, but they will be done at arbitary points and reviewing/reverting back to the older versions will be more difficult.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, whle others, like Google Docs, treat each file separately?
+Git appears to be designed for the production of an application which is built using a number of different files ( code, graphics, documentation).
+Google Docs appears to work better for individual files such as technical documents, single files of code.
+
+How can you use the commands git log and git diff to view the history of iles?
+git log shows all the individual commits that exist for the history of the file(s). Each of these commits can then be compared to view the detail of the changes made to the file. 
+
+How might using version control make you more confident to make changes that could break something?
+It would be much easier to remove any changes to the code, so this gives me more confience to experiment with programming.
+
+What do you want to try using Gut for.
+Software development, but it's alos required for the Machine Learning course.
